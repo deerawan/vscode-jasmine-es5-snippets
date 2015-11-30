@@ -1,0 +1,28 @@
+{
+	"afterEach": {
+		"prefix": "ae",
+		"body": "\nafterEach(function() => {\n\t$1\n});\n\t",
+		"description": "afterEach is called once after each spec",
+		"scope": "source.js"
+	},
+	"beforeEach": {
+		"prefix": "be",
+		"body": "\nbeforeEach(function() => {\n\t$1\n});\n\t",
+		"description": "beforeEach is called once before each spec",
+		"scope": "source.js"
+	},
+	"callsAll": {
+		"prefix": "ca",
+		"body": "${1:spy}.calls.all()\n\t",
+		"description": "spy.calls.all"
+	},
+	"callsAllArgs": {
+		"prefix": "caa",
+		"body": "${1:spy}.calls.allArgs()\n\t",
+		"description": "spy.calls.allArgs"
+	},
+	"it": {
+		"prefix": "it",
+		"body": "\nit('$1', function() {\n\t$2\n});\n\t"
+	}
+}

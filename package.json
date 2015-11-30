@@ -1,0 +1,25 @@
+{
+  "name": "vscode-jasmine-es5",
+  "publisher": "Budi Irawan",
+  "version": "1.0.0",
+  "displayName": "Visual Studio Code Jasmine ES5 Snippets",
+  "description": "Visual Studio Code Jasmine ES5 Snippets",
+  "icon": "images/jasmine.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+		    "path": "./snippets/javascript.json"
+      }
+    ]
+  }
+}
