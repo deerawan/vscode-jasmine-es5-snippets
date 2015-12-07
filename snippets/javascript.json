@@ -66,6 +66,58 @@
 		"prefix": "it",
 		"body": "\nit('$1', function() {\n\t$2\n});\n\t"
 	},
+  "notToBe": {
+		"prefix": "nb",
+		"body": "expect($1).not.toBe($2);$0\n\t"
+	},
+	"notToBleCloseTo": {
+		"prefix": "nct",
+		"body": "expect($1).not.toBeCloseTo(${2:number}, ${3:delta});$0\n\t"
+	},
+	"notToBeDefined": {
+		"prefix": "nd",
+		"body": "expect($1).not.toBeDefined();$0\n\t"
+	},
+	"notToBeFalsef": {
+		"prefix": "nf",
+		"body": "expect($1).not.toBeFalsy();$0\n\t"
+	},
+	"notToBeGreaterThan": {
+		"prefix": "ngt",
+		"body": "expect($1).not.toBeGreaterThan($2);$0\n\t"
+	},
+	"notToBeLessThanlt": {
+		"prefix": "nlt",
+		"body": "expect($1).not.toBeLessThan($2);$0\n\t"
+	},
+	"notToBeNull": {
+		"prefix": "nn",
+		"body": "expect($1).not.toBeNull();$0\n\t"
+	},
+	"notToBeTruthy": {
+		"prefix": "nt",
+		"body": "expect($1).not.toBeTruthy();$0\n\t"
+	},
+	"notToBeUndefined": {
+		"prefix": "nu",
+		"body": "expect($1).not.toBeUndefined();$0\n\t"
+	},
+	"notToContain": {
+		"prefix": "nc",
+		"body": "expect(${1:array}).not.toContain(${2:item});$0\n\t"
+	},
+	"notToEqual": {
+		"prefix": "ne",
+		"body": "expect($1).not.toEqual($2);$0\n\t"
+	},
+	"notToMatch": {
+		"prefix": "nm",
+		"body": "expect($1).not.toMatch($2);$0\n\t"
+	},
+	"notToThrow": {
+		"prefix": "nt",
+		"body": "expect($1).not.toThrow();$0\n\t"
+	},
   "toBe": {
 		"prefix": "tb",
 		"body": "expect($1).toBe($2);$0\n\t"
@@ -129,5 +181,5 @@
 	"toThrowError": {
 		"prefix": "tte",
 		"body": "expect($1).toThrowError(${2:error});$0"
-	},
+	}
 }
