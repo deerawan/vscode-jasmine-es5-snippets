@@ -1,7 +1,15 @@
 {
+  "afterAll": {
+		"prefix": "aa",
+		"body": "\nafterAll(function() => {\n\t$1\n});\n\t"
+	},
 	"afterEach": {
 		"prefix": "ae",
 		"body": "\nafterEach(function() => {\n\t$1\n});\n\t"
+	},
+  "beforeAll": {
+		"prefix": "ba",
+		"body": "\nbeforeAll(function() => {\n\t$1\n});\n\t"
 	},
 	"beforeEach": {
 		"prefix": "be",
