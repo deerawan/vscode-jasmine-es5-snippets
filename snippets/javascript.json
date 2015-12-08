@@ -16,37 +16,36 @@
     "body": "\nbeforeEach(function() {\n\t$1\n});\n\t"
   },
   "callsAll": {
-    "prefix": "ca",
+    "prefix": "sca",
     "body": "${1:spy}.calls.all()\n\t"
   },
   "callsAllArgs": {
-    "prefix": "caa",
+    "prefix": "scaa",
     "body": "${1:spy}.calls.allArgs()\n\t"
   },
   "callsAny": {
-    "prefix": "ca",
+    "prefix": "scan",
     "body": "${1:spy}.calls.any()\n\t"
   },
   "callsArgsFor": {
-    "prefix": "caf",
+    "prefix": "scaf",
     "body": "${1:spy}.calls.argsFor(${2:call number})\n\t"
   },
   "callsCount": {
-    "prefix": "cc",
+    "prefix": "scc",
     "body": "${1:spy}.calls.count()\n\t"
   },
   "callsFirst": {
-    "prefix": "cf",
+    "prefix": "scf",
     "body": "${1:spy}.calls.first()\n\t"
   },
   "callsMostRecent": {
-    "prefix": "cmr",
+    "prefix": "scmr",
     "body": "${1:spy}.calls.mostRecent()\n\t"
   },
   "callsReset": {
-    "prefix": "cr",
-    "body": "${1:spy}.calls.reset()\n\t",
-    "description": "clears all tracking for a spy"
+    "prefix": "scr",
+    "body": "${1:spy}.calls.reset()\n\t"
   },
   "createSpy": {
     "prefix": "cs",
@@ -82,42 +81,42 @@
   },
   "objectContaining": {
     "prefix": "oc",
-    "body": "jasmine.objectContaining('${1:key}': ${2:value}\\}})$0"
+    "body": "jasmine.objectContaining({'${1:key}': ${2:value}\\})$0"
   },
   "notToBe": {
     "prefix": "nb",
     "body": "expect($1).not.toBe($2);$0\n\t"
   },
   "notToBleCloseTo": {
-    "prefix": "nct",
+    "prefix": "nbct",
     "body": "expect($1).not.toBeCloseTo(${2:number}, ${3:delta});$0\n\t"
   },
   "notToBeDefined": {
-    "prefix": "nd",
+    "prefix": "nbd",
     "body": "expect($1).not.toBeDefined();$0\n\t"
   },
-  "notToBeFalsef": {
-    "prefix": "nf",
+  "notToBeFalsy": {
+    "prefix": "nbf",
     "body": "expect($1).not.toBeFalsy();$0\n\t"
   },
   "notToBeGreaterThan": {
-    "prefix": "ngt",
+    "prefix": "nbgt",
     "body": "expect($1).not.toBeGreaterThan($2);$0\n\t"
   },
-  "notToBeLessThanlt": {
-    "prefix": "nlt",
+  "notToBeLessThan": {
+    "prefix": "nblt",
     "body": "expect($1).not.toBeLessThan($2);$0\n\t"
   },
   "notToBeNull": {
-    "prefix": "nn",
+    "prefix": "nbn",
     "body": "expect($1).not.toBeNull();$0\n\t"
   },
   "notToBeTruthy": {
-    "prefix": "nt",
+    "prefix": "nbt",
     "body": "expect($1).not.toBeTruthy();$0\n\t"
   },
   "notToBeUndefined": {
-    "prefix": "nu",
+    "prefix": "nbu",
     "body": "expect($1).not.toBeUndefined();$0\n\t"
   },
   "notToContain": {
@@ -138,26 +137,26 @@
   },
   "spyOn": {
     "prefix": "so",
-    "body": "spyOn(${1:object}, '${2:method}')$3;$0\n\t"
+    "body": "spyOn(${1:object}, '${2:method}')$3;"
   },
   "spyOnAndCallFake": {
-    "prefix": "scf",
-    "body": "spyOn(${1:object}, '${2:method}').and.callFake(${3:function() \\{\n    $4\n\\}});$0\n    "
+    "prefix": "socf",
+    "body": "spyOn(${1:object}, '${2:method}').and.callFake(function() {\n$4\n\\});$0"
   },
   "spyOnAndCallThrough": {
-    "prefix": "sct",
+    "prefix": "soct",
     "body": "spyOn(${1:object}, '${2:method}').and.callThrough();$0"
   },
   "spyOnAndReturnValue": {
-    "prefix": "srv",
+    "prefix": "sorv",
     "body": "spyOn(${1:object}, '${2:method}').and.returnValue('${3:value}');$0"
   },
   "spyOnAndStub": {
-    "prefix": "ss",
+    "prefix": "sos",
     "body": "spyOn(${1:object}, '${2:method}').and.stub();$0"
   },
   "spyOnAndThrowError": {
-    "prefix": "ste",
+    "prefix": "sote",
     "body": "spyOn(${1:object}, '${2:method}').and.throwError('${3:error}');$0"
   },
   "toBe": {

@@ -1,5 +1,5 @@
 # Visual Studio Code Jasmine Snippets ES5
-This code snippets is based on [Sublime Jasmine Snippets](https://github.com/caiogondim/jasmine-sublime-snippets).
+This code snippets is inspired by [Sublime Jasmine Snippets](https://github.com/caiogondim/jasmine-sublime-snippets) with some trigger modifications.
 
 ## Installation
 Type `cmd-shift-p`/`ctrl-shift-p` to launch command palette and choose `Extensions: Install Extension`. Search this package and install.
@@ -44,14 +44,14 @@ Below is a list of all snippets and the triggers.
 | `tt→`    | expect().toThrow |
 | `tte→`   | expect().toThrowError |
 | `nb→`    | expect().not.toBe |
-| `nct→`   | expect().not.toBeCloseTo |
-| `nd→`    | expect().not.toBeDefined |
-| `nf→`    | expect().not.toBeFalsy |
-| `ngt→`   | expect().not.toBeGreaterThan |
-| `nlt→`   | expect().not.toBeLessThan |
-| `nn→`    | expect().not.toBeNull |
-| `nt→`    | expect().not.toBeTruthy |
-| `nu→`    | expect().not.toBeUndefined |
+| `nbct→`  | expect().not.toBeCloseTo |
+| `nbd→`   | expect().not.toBeDefined |
+| `nbf→`   | expect().not.toBeFalsy |
+| `nbgt→`  | expect().not.toBeGreaterThan |
+| `nblt→`  | expect().not.toBeLessThan |
+| `nbn→`   | expect().not.toBeNull |
+| `nbt→`   | expect().not.toBeTruthy |
+| `nbu→`   | expect().not.toBeUndefined |
 | `nc→`    | expect().not.toContain |
 | `ne→`    | expect().not.toEqual |
 | `nm→`    | expect().not.toMatch |
@@ -63,19 +63,19 @@ Below is a list of all snippets and the triggers.
 | Trigger  | Content |
 | -------  | ------- |
 | `so→`    | spyOn |
-| `sct→`   | spyOn.and.callThrough |
-| `scf→`   | spyOn.and.callFake |
-| `srv→`   | spyOn.and.returnValue |
-| `ss→`    | spyOn.and.stub |
-| `ste→`   | spyOn.and.throwError |
-| `ca→`    | spy.calls.all |
-| `caa→`   | spy.calls.allArgs |
-| `ca→`    | spy.calls.any |
-| `caf→`   | spy.calls.argsFor |
-| `cc→`    | spy.calls.count |
-| `cf→`    | spy.calls.first |
-| `cmr→`   | spy.calls.mostRecent |
-| `cr→`    | spy.calls.reset |
+| `soct→`  | spyOn.and.callThrough |
+| `socf→`  | spyOn.and.callFake |
+| `sorv→`  | spyOn.and.returnValue |
+| `sos→`   | spyOn.and.stub |
+| `sote→`  | spyOn.and.throwError |
+| `sca→`   | spy.calls.all |
+| `scaa→`  | spy.calls.allArgs |
+| `scan→`  | spy.calls.any |
+| `scaf→`  | spy.calls.argsFor |
+| `scc→`   | spy.calls.count |
+| `scf→`   | spy.calls.first |
+| `scmr→`  | spy.calls.mostRecent |
+| `scr→`   | spy.calls.reset |
 | `cs→`    | createSpy |
 | `cso→`   | createSpyObj |
 
