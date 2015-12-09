@@ -1,8 +1,8 @@
 {
   "name": "vscode-jasmine-es5",
   "publisher": "deerawan",
-  "version": "1.0.0",
-  "displayName": "Visual Studio Code Jasmine ES5 Snippets",
+  "version": "1.0.1",
+  "displayName": "Jasmine ES5 Code Snippets",
   "description": "Visual Studio Code Jasmine ES5 Snippets",
   "icon": "images/jasmine.png",
   "license": "MIT",
