@@ -1,19 +1,19 @@
 {
   "afterAll": {
     "prefix": "aa",
-    "body": "\nafterAll(function() {\n\t$1\n});\n\t"
+    "body": "afterAll(function() {\n\t$1\n});"
   },
   "afterEach": {
     "prefix": "ae",
-    "body": "\nafterEach(function() {\n\t$1\n});\n\t"
+    "body": "afterEach(function() {\n\t$1\n});"
   },
   "beforeAll": {
     "prefix": "ba",
-    "body": "\nbeforeAll(function() {\n\t$1\n});\n\t"
+    "body": "beforeAll(function() {\n\t$1\n});"
   },
   "beforeEach": {
     "prefix": "be",
-    "body": "\nbeforeEach(function() {\n\t$1\n});\n\t"
+    "body": "beforeEach(function() {\n\t$1\n});"
   },
   "callsAll": {
     "prefix": "sca",
@@ -57,7 +57,7 @@
   },
   "describe": {
     "prefix": "desc",
-    "body": "\ndescribe('${1:Name of the group}', function() {\n\t$2\n});\n\t"
+    "body": "describe('${1:Name of the group}', function() {\n\t$2\n});"
   },
   "expect": {
     "prefix": "exp",
@@ -65,15 +65,15 @@
   },
   "focusDescribe": {
     "prefix": "fdesc",
-    "body": "\nfdescribe('${1:Name of the group}', function() {\n\t$2\n});\n\t"
+    "body": "fdescribe('${1:Name of the group}', function() {\n\t$2\n});"
   },
   "focusedIt": {
     "prefix": "fit",
-    "body": "\nfit('${1}', function() {\n\t$2\n});\n"
+    "body": "fit('${1}', function() {\n\t$2\n});"
   },
   "it": {
     "prefix": "it",
-    "body": "\nit('$1', function() {\n\t$2\n});\n\t"
+    "body": "it('$1', function() {\n\t$2\n});"
   },
   "any": {
     "prefix": "any",
@@ -225,10 +225,10 @@
   },
   "xDescribe": {
     "prefix": "xdesc",
-    "body": "\nxdescribe('${1:Name of the group}', function() {\n\t$2\n});\n\t"
+    "body": "xdescribe('${1:Name of the group}', function() {\n\t$2\n});\n\t"
   },
   "xIt": {
     "prefix": "xit",
-    "body": "\nxit('${1}', function() {\n\t$2\n});\n\t"
+    "body": "xit('${1}', function() {\n\t$2\n});\n\t"
   }
 }
